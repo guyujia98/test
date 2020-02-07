@@ -9,7 +9,7 @@ error = c()
 errorT=c()
 upbound = c()
 
-for (i in 1:N)
+for (i in 1:100)
 {
 	A[i,] = sample(1:a[i], 100, replace=T)
 	B[,i] = sample(1:b[i], 100, replace=T)
