@@ -18,7 +18,7 @@ for (i in 1:100)
 }		
 for (i in 1:N)
 {
-	for(k in 1:N)
+	for(k in 1:100)
 	{
 		colAsp = sample(1:100, i, replace=T, prob=probA)
 		Asp = matrix(nrow=100,ncol=i)
