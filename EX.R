@@ -16,7 +16,7 @@ for (i in 1:N)
 	sumA[i] = sum(A[,i]^2)
 	probA[i] = sumA[i]/sum(sumA) 
 }		
-for (i in 1:3)
+for (i in 1:100)
 {
 	for(k in 1:100)
 	{
